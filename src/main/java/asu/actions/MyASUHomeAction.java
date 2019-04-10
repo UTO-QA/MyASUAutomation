@@ -1,4 +1,4 @@
 package asu.actions;
 
-public class MyASUHomeAction {
+public class MyASUHomeAction extends MyASUAction {
 }
