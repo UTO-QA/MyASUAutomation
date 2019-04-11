@@ -5,11 +5,11 @@ Feature: My ASU home page - My Classes Container
 
     Scenario: My Classes Container
         Given I am logged into <my.asu.edu>
-        Then I should see My Classes container on the homepage
+        Then I should see "My Classes" container on the homepage
 
     Scenario: My Classes Container - Header
         Given I am logged into <my.asu.edu>
-        When I click on the ? icon in the My Classes container header
+        When I click on the "?" icon in the "My Classes" container header
         Then the FAQs pop-up window should appear
     
     Scenario: My Classes Container - Footer
