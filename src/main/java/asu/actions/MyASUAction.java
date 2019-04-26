@@ -25,5 +25,25 @@ public class MyASUAction extends FluentPage {
     @FindBy(css=".resources #resourcesTable")
     public FluentWebElement resourcesTable;
 
+    public void verfifyHeaderList(){
+
+    }
+
+    public void navigateToAsuHome(){
+
+    }
+
+    public void navigateToFinance(){
+
+    }
+
+    public void navigateToProfile(){
+
+    }
+
+    public void navigateToServiceCenter(){
+
+    }
+
 
 }
